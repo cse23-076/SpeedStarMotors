@@ -1,0 +1,50 @@
+body {
+    background: url('https://wallpaperaccess.com/full/356855.jpg') center/cover fixed no-repeat;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    opacity: 0.;
+    color: white;
+}
+
+h1, p {
+    color: white;
+    margin-left: 10px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 20px;
+    font-size: 17px;
+}
+
+input[type="text"] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    margin: 5px;
+}
