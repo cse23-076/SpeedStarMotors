@@ -48,3 +48,16 @@ footer a {
     color: white;
     margin: 5px;
 }
+a.return-home-link {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+a.return-home-link:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+}
