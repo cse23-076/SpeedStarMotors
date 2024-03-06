@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    opacity: 0;
+    opacity: 0.;
     color: white;
 }
 
@@ -48,7 +48,6 @@ footer a {
     color: white;
     margin: 5px;
 }
-
 a.return-home-link {
     display: inline-block;
     background-color: #4CAF50; /* Green background color */
@@ -61,30 +60,4 @@ a.return-home-link {
 
 a.return-home-link:hover {
     background-color: #45a049; /* Darker green background color on hover */
-}
-
-/* Link styling */
-a {
-    text-decoration: none; /* Remove default underline */
-}
-
-/* Unvisited link */
-a:link {
-    color: green; /* Green color for unvisited link */
-}
-
-/* Visited link */
-a:visited {
-    color: pink; /* Pink color for visited link */
-}
-
-/* Active link */
-a:active {
-    color: yellow; /* Yellow color for active link */
-}
-
-/* Hover effect for all links */
-a:hover {
-    color: red; /* Red color on hover */
-    text-decoration: underline; /* Underline on hover */
 }
