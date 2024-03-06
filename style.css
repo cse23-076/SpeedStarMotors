@@ -61,3 +61,18 @@ a.return-home-link {
 a.return-home-link:hover {
     background-color: #45a049; /* Darker green background color on hover */
 }
+
+a:visited {
+    color: pink; /* Visited link color */
+}
+
+/* Active link style */
+a:active {
+    color: yellow; /* Active link color */
+}
+
+/* Hover link style */
+a:hover {
+    color: red; /* Hover link color */
+    text-decoration: underline; /* Add underline on hover */
+}
